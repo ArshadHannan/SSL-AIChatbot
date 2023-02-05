@@ -1,0 +1,64 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hi there, how can I help?","Hello", "Good to see you"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I am a Sinhala Sign Language  wiki. Ask me anything about Sinhala sign language"],
+         "context": [""]
+        },
+
+        {"tag": "signLanguage_history",
+         "patterns": ["can I know the history of sign language?", "history of sign language?", "sign language history?"],
+         "responses": ["Navigating to Adverse drug reaction module"],
+         "context": [""]
+        },
+        {"tag": "learn_SSL",
+         "patterns": ["I would like to learn SSL", "Learn SSL", "How to Learn SSL", "where to Learn SSL", "learning SSL" ],
+         "responses": ["The below link will guide to a platform on how to learn & communicate Sri Lankan Sign Language (SLSL) http://srilankansignlanguage.org/phrases/"],
+         "context": [""]
+        },
+        {"tag": "schools",
+         "patterns": ["Deaf mute Schools in Srilanka", "What are the deaf mute schools in Srilanka", "Srilankan deaf mute schools", "details of deaf mute schools in Srilanka"],
+         "responses": ["In Sri Lanka various schools are located as deaf schools.\n\n •\tJoseph's School For The Deaf School\nAddress: Behind the Paul Church, Ragama 11010, Sri Lanka\nPhone:+94 11 4 816265\n\n •\tRohana Special School \nAddress: Matara, Sri Lanka\n\n •\tCSI deaf School\nAddress: Manamadurai Town Road, Manamadurai, Tamil Nadu\nPhone:04574 268 470\n\n •\tDr. Reinjntjes School for the Deaf \nAddress: 14/2, Andiris De Silva Mawatha,Rawathawatta, Moratuwa\n\n •\tSumaga Special Needs School,\nAddress: 2/17, Boditrukkarama Road, Waragoda, Kelaniya\n\n •\t Pre-school National Council for the Deaf\nAddress: 625/98 Sri Jayawardenapura Mawatha,Rajagiriya"],
+         "context": [""]
+        },
+        {"tag": "deaf_mute_population",
+         "patterns": ["world population of Deaf mute people, number of deaf mute people in the world, world population of deaf mute people"],
+         "responses": ["According to the World Health Organization, over 5% of the world’s population suffers from disabling hearing loss. "],
+         "context": [""]
+        },
+        {"tag": "sing_language",
+         "patterns": ["what is sign language", "what is sign language used for?"],
+         "responses": ["the communication through bodily movements, especially of the hands and arms, used when spoken communication is impossible or not desirable"],
+         "context": ["search_pharmacy_by_name"]
+        },
+        {"tag": "sing_language_created",
+         "patterns": [ "who created sign language ", "how was it created?", "when was sign language created?", "who created it sign language?", "who created it?" ],
+         "responses": ["In the 16th century, Pedro Ponce de Len, a Benedictine monk from Spain, is credited with being the first person to create the formal soundproof communication standard for the hearing impaired"],
+         "context": [""]
+        },
+        {"tag": "deaf_mute_population_Srilanka",
+         "patterns": ["population of deaf mute people in srilanka","number of deaf mute people in srilanka", "deaf mute people in srilanka"],
+         "responses": ["the World Health Organization has revealed that approximately 9% of the population in Sri Lanka are deaf "],
+         "context": [""]
+        }
+   ]
+}
