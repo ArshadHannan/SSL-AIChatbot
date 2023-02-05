@@ -1,3 +1,6 @@
+training/MP_Data
+training/final_Datasets
+training/logs 
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
